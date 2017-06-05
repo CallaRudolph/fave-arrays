@@ -9,8 +9,15 @@ $("#formOne").submit(function(event) {
 
   var favorites = [cheese, animal, larry, max, brady];
 
-  $("#results").text(favorites);
+  var newArray = [];
 
+  newArray.push(favorites[1], favorites [0], favorites [2]);
+
+  $("#one").text(newArray[0]);
+  $("#zero").text(newArray[1]);
+  $("#two").text(newArray[2]);
+
+$("#newArray").show();
 
   });
 });

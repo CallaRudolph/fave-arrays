@@ -17,7 +17,6 @@ $("#formOne").submit(function(event) {
   $("#zero").text(newArray[1]);
   $("#two").text(newArray[2]);
 
-$("#newArray").show();
-
+  $("#newArray").show();
   });
 });
